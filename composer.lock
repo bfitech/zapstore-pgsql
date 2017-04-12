@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c537f735855acc9e720234727eb97d7",
+    "content-hash": "d9f50fd9cc35e39917eadee296ce0d51",
     "packages": [
         {
             "name": "bfitech/zapcore",
@@ -1212,9 +1212,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
-    "prefer-stable": true,
+    "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.5 || ~7.0",
