@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f50fd9cc35e39917eadee296ce0d51",
+    "content-hash": "b278305e53de341c8f9bb7c43557463e",
     "packages": [
         {
             "name": "bfitech/zapcore",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bfitech/zapcore.git",
-                "reference": "374747582a2f2476276ad5da1ddfbfdc87c60148"
+                "reference": "901050c4b2d245a9ae7067f6b85da6c1e1924c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bfitech/zapcore/zipball/374747582a2f2476276ad5da1ddfbfdc87c60148",
-                "reference": "374747582a2f2476276ad5da1ddfbfdc87c60148",
+                "url": "https://api.github.com/repos/bfitech/zapcore/zipball/901050c4b2d245a9ae7067f6b85da6c1e1924c45",
+                "reference": "901050c4b2d245a9ae7067f6b85da6c1e1924c45",
                 "shasum": ""
             },
             "require": {
@@ -28,6 +28,11 @@
                 "phpunit/phpunit": "4.8.*"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "BFITech\\ZapCore\\": "src"
@@ -44,24 +49,24 @@
                 }
             ],
             "description": "A very simple router and other utils.",
-            "time": "2017-04-09T02:19:21+00:00"
+            "time": "2017-04-17T13:42:53+00:00"
         },
         {
             "name": "bfitech/zapstore",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bfitech/zapstore.git",
-                "reference": "7be1dfcdaa27538f5a68901e6b4b70011dda771a"
+                "reference": "3f576c2c0100d4871db131b7ead31f74762d2f67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bfitech/zapstore/zipball/7be1dfcdaa27538f5a68901e6b4b70011dda771a",
-                "reference": "7be1dfcdaa27538f5a68901e6b4b70011dda771a",
+                "url": "https://api.github.com/repos/bfitech/zapstore/zipball/3f576c2c0100d4871db131b7ead31f74762d2f67",
+                "reference": "3f576c2c0100d4871db131b7ead31f74762d2f67",
                 "shasum": ""
             },
             "require": {
-                "bfitech/zapcore": "^1.3",
+                "bfitech/zapcore": "~1.3.0",
                 "php": ">=5.5 || ~7.0"
             },
             "require-dev": {
@@ -73,7 +78,17 @@
                 "ext-sqlite3": "*",
                 "phpunit/phpunit": "~4.8"
             },
+            "suggest": {
+                "bfitech/zapstore-mysql": "MySQL-specific support.",
+                "bfitech/zapstore-pgsql": "PostgreSQL-specific support.",
+                "bfitech/zapstore-sqlite3": "SQLite3-specific support."
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "BFITech\\ZapStore\\": "src"
@@ -90,7 +105,7 @@
                 }
             ],
             "description": "A simple SQL connection wrapper.",
-            "time": "2017-04-09T02:56:15+00:00"
+            "time": "2017-04-18T16:43:13+00:00"
         }
     ],
     "packages-dev": [
