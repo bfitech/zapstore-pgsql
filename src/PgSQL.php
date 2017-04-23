@@ -4,6 +4,9 @@
 namespace BFITech\ZapStore;
 
 
+/**
+ * PostgreSQL class.
+ */
 class PgSQL extends SQL {
 
 	/**
