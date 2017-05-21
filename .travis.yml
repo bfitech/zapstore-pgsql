@@ -11,7 +11,7 @@ services:
 
 before_script:
     - createdb -Upostgres -EUTF-8 -Ttemplate0 zapstore_test_db
-    - composer install -no --prefer-dist
+    - composer install -no
 
 script:
     - php ./vendor/bin/phpunit
